@@ -43,12 +43,6 @@
 				$_SESSION['checkout']=$checkout;
 				$roombooked=true;
 				header("Location:confirmbooking.php");
-				/*////MAKE PAYment page and then insert value to book room
-				$query2 = "INSERT INTO reservation values(default,'$custid',".(int)$x.",'$checkin','$checkout')";
-				echo $query2;
-				$mysqli->query($query2) or die("insert error");
-				$roombooked=true;
-				break;*/
 			}
 			else
 			{
